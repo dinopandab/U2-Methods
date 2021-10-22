@@ -38,7 +38,7 @@ public class BasicCalculator {
         window.setSize(200,400);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocationRelativeTo(null);
-        addButton.addActionListener(new additionListener);
+      /*  addButton.addActionListener(new additionListener);*/
 
         panel.add(inputLabel1);
         panel.add(inputField1);
@@ -59,7 +59,7 @@ public class BasicCalculator {
 
         }
 
-    private static class additionListener implements ActionListener{
+   /* private static class additionListener implements ActionListener{
 
         public void actionPreformed (ActionEvent actionEvent){
 
@@ -75,7 +75,7 @@ public class BasicCalculator {
 
 
 
-    }
+    }*/
 
 
 
